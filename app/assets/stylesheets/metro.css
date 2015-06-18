@@ -194,6 +194,24 @@ span {
 	background: transparent;
 	color: white;
 }
+.circle-medsos{
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;
+	border: 3px solid;
+	background: white;
+	text-align: center;
+	padding-top: 8px;
+	cursor: pointer;
+}
+.circle-medsos:hover {
+	background: transparent;
+	color: white;
+}
+.circle-medsos:active {
+	background: transparent;
+	color: white;
+}
 .border-red{
 	color: #a20025;
 }
@@ -205,6 +223,12 @@ span {
 }
 .border-yellow{
 	color: #f0a30a;
+}
+.border-cyan{
+	color: #1ba1e2;
+}
+.border-darkCobalt{
+  color: #00356a;
 }
 .border-magenta{
 	color: #d80073;
