@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  summary: MyText
+  work_as: MyString
+  work_in: MyString
+  experiences: MyText
+  interests: MyText
+  skills: MyText
+  languages: MyString
+  organizations: MyText
+  user_id: 1
+
+two:
+  summary: MyText
+  work_as: MyString
+  work_in: MyString
+  experiences: MyText
+  interests: MyText
+  skills: MyText
+  languages: MyString
+  organizations: MyText
+  user_id: 1

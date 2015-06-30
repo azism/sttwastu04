@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @profile.summary %>
+</p>
+
+<p>
+  <strong>Work as:</strong>
+  <%= @profile.work_as %>
+</p>
+
+<p>
+  <strong>Work in:</strong>
+  <%= @profile.work_in %>
+</p>
+
+<p>
+  <strong>Experiences:</strong>
+  <%= @profile.experiences %>
+</p>
+
+<p>
+  <strong>Interests:</strong>
+  <%= @profile.interests %>
+</p>
+
+<p>
+  <strong>Skills:</strong>
+  <%= @profile.skills %>
+</p>
+
+<p>
+  <strong>Languages:</strong>
+  <%= @profile.languages %>
+</p>
+
+<p>
+  <strong>Organizations:</strong>
+  <%= @profile.organizations %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @profile.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>
